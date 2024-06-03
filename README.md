@@ -7,8 +7,8 @@
 [instagram]: [https://www.instagram.com/brex.ton/]
 
 
-Here are some ideas to get you started:
+Some of my qualifications:
 
-- 🔭 I’m currently in WGU for Computer Science 
-- 🌱 I have mid-level experience in HTML and CSS
-- 🤔 I am currently fleshing out Python to have a full understanding while utlizing Java in college
+I’m currently obtaining my BCSCS at WGU
+I have mid-level experience in HTML and CSS
+I am currently fleshing out Python to have a full understanding while utlizing Java in college
