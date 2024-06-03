@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brexton Thomas</title>
+    <style>
+      header {
+        background-color: antiquewhite;
+        object-fit: cover;
+        color: rgb(85, 82, 82);
+        padding: 10px;
+        font-display: times;
+        font-style: unset;
+        position: sticky;
+        width: 100%;
+        top: 1;
+        box-shadow: 1px 0.5px 0.5px 1px rgb(155, 155, 156);
+      }
+      #logo1 {
+        width: 90px;
+        height: 90px;
+        object-position: center left;
+      }
+      .butts {
+        top: 0px;
+        right: 30px;
+        margin-top: 0;
+        position: absolute;
+      }
+      .butt {
+        background-color: antiquewhite;
+        border: none;
+      }
+      .bu {
+        text-decoration: none;
+        color: black;
+      }
+      .boxes {
+        height: 300px;
+        width: 300px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(225, 226, 227);
+        opacity: 0.7;
+      }
+      .boxed {
+        height: 700px;
+        width: 330px;
+        position: absolute;
+        border: 1px solid black;
+        margin: 10px;
+        background-color: rgb(225, 226, 227);
+        opacity: 0.7;
+        top: 190px;
+        right: 20px;
+      }
+      .navbar {
+        position: sticky;
+        position: -webkit-sticky;
+        z-index: 2;
+        color: aliceblue;
+        height: 38px;
+        background-color: rgb(64, 62, 62);
+        box-shadow: 0px 3px 3px 0px rgb(0, 0, 4);
+        width: 180%;
+        top: 0;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: absolute;
+      }
+      li {
+        float: left;
+      }
+      ul ul {
+        position: absolute;
+        top: 100%;
+        display: none;
+      }
+      ul ul li {
+        display: block;
+        box-shadow: 0px 5px 5px 0px rgb(0, 0, 4);
+      }
+      ul li ul li {
+        clear: both;
+        width: 100%;
+      }
+      .navbar li:hover ul {
+        display: contents;
+        position: sticky;
+      }
+      .navbar li a {
+        color: rgb(230, 226, 226);
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+      .navbar ul ul li a {
+        background-color: rgb(52, 51, 51);
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        z-index: -1;
+        height: 4000px;
+        width: 100%;
+        background-image: url("images/MTB.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .doge {
+        margin-left: 50px;
+        height: 180px;
+        width: 250px;
+      }
+      footer {
+        background-color: rgb(102, 101, 101);
+        color: rgb(206, 203, 203);
+        text-align: center;
+        padding: 30px;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0px 10px 10px 0px rgb(0, 0, 4);
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img id="logo1" src="images/logo-placeholder.png" alt="logo" />
+        Testing HTML capabilities
+      </h1>
+      <h2 class="butts">
+        <button class="butt"><a class="bu" href="#">Log-in</a></button>
+        <button class="butt"><a class="bu" href="#">Sign Up</a></button>
+      </h2>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">About Me</a>
+          <ul class="mDrop">
+            <li><a href="#">Gaming</a></li>
+            <li><a href="#">Family</a></li>
+            <li><a href="#">College</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Questions</a></li>
+      </ul>
+    </nav>
+    <div class="boxes">
+      <p>Test Showing Words</p>
+      <p>
+        I had 600 words to describe you and each was sweeter than the last; your
+        scarlet lips, your fiery hair, the scent of rain that walks with you,
+        following you and hangs, suspended, in the air. I wrote up storms for
+        your beauty and each was a tempest unrivaled; your darkened lashes,
+        innocent smile - that makes my heart sing a love song, dance in the sky,
+        paint a canvas into a picture, and doing back flips all the while I had
+        600 words to describe you, but I don't need nearly as much to tell you
+        how I feel, I need only three. I do. Three little words that describe
+        you just fine Three words, eight letters long, Those three words; 'I
+        love you'
+      </p>
+    </div>
+    <img class="doge" src="images/Original_Doge_meme.jpg" alt="" />
+    <div class="boxed">
+      <p>
+        Showing that multiple boxes can be employed, placed. The footer can be
+        changed and managed, a drop down menu, Logo, Sign-in button as well as a
+        Log in. Changing of fonts, sizing, covering all basics of HTML and CSS.
+      </p>
+      <p>Created all within 2.5 hrs. 196 lines of code.</p>
+    </div>
+    <footer>&copy; 2024 Brexton Thomas. All rights reserved.</footer>
+  </body>
+</html>
