@@ -7,8 +7,7 @@
 [instagram]: [https://www.instagram.com/brex.ton/]
 
 
-Some of my qualifications:
 
 I’m currently obtaining my BCSCS at WGU
-I have mid-level experience in HTML and CSS
-I am currently fleshing out Python to have a full understanding while utlizing Java in college
+my graduation is May of 2025.
+I am a veteran. Have a fleshed out understanding of DS/A 
